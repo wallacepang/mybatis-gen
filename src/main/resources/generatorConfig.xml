@@ -20,8 +20,8 @@
         <plugin type="com.wallace.mybatis.plugin.LombokPlugin" />
 
         <!-- 自定义注释生成器 -->
-        <commentGenerator type="com.wallace.mybatis.comment.MySQLCommentGenerator">
-            <property name="author" value="fengqingyang"/>
+        <commentGenerator type="com.wallace.mybatis.comment.MysqlCommentGenerator">
+            <property name="author" value="wallace"/>
             <property name="dateFormat" value="yyyy/MM/dd"/>
         </commentGenerator>
 
